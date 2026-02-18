@@ -787,6 +787,10 @@ img {
   flex-direction: column;
   gap: 4rem;
 }
+
+.update__img img {
+  width: 100%;
+}
 /* c right side */
 .update__right {
   align-self: start;
@@ -813,6 +817,7 @@ td {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  margin-top: 10rem;
 }
 
 .update__post {
@@ -829,10 +834,8 @@ td {
   margin-top: 3rem;
 }
 
-/* c update tags */
-
 .tags {
-  margin-top: 15rem;
+  margin-top: 17rem;
 }
 .update .tags {
   display: flex;
@@ -994,7 +997,7 @@ td {
 }
 
 .no-bg-btn:hover {
-  color: var(--clr-primary);
+  color: var(--clr-dark);
   transition: 0.5s ease-in-out;
 }
 
