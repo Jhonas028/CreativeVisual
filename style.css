@@ -877,6 +877,53 @@ td {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+@media (max-width: 520px) {
+  .update__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .update__left {
+    padding: 4rem 0;
+  }
+
+  .title h1 {
+    margin-top: 4rem;
+    font-size: 2.4rem;
+  }
+
+  .categories {
+    padding-top: 20px;
+  }
+
+  .update__tags ul {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .update__post {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .update__recents {
+    margin-top: 5rem;
+  }
+
+  .tags {
+    margin: 5rem 0;
+  }
+
+  .update .tags .buttons a {
+    padding: 1rem 2rem;
+    font-size: 12px;
+  }
+}
+
 /* c contacts */
 
 .contact {
@@ -979,6 +1026,52 @@ td {
   padding: 2rem;
   font-size: large;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 520px) {
+  .contact {
+    height: auto;
+    padding: 16rem 2rem;
+  }
+
+  .contact__wrapper {
+    grid-template-columns: 1fr; /* stack */
+    gap: 4rem;
+  }
+
+  .contact__title {
+    text-align: center;
+  }
+
+  .contact__details ul {
+    margin: 3rem 0 0 0;
+  }
+
+  .contact__details li {
+    gap: 2rem;
+  }
+
+  .contact__details li i {
+    font-size: 22px;
+  }
+
+  .contact__social {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .contact__inputs {
+    margin-top: 4rem; /* remove huge 20rem */
+  }
+
+  .contact__inputs button {
+    width: 100%;
+    align-items: center;
+  }
+
+  #text__message {
+    height: 120px;
+  }
 }
 
 /* ASSETS */
