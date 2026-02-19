@@ -1,30 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
 
-</head>
-<body>
-    <h1>h1</h1>
+    <style>
+      .container {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      .containers__wrapper {
+        display: flex;
+
+        background-color: aqua;
+      }
+      .container .containers__wrapper div {
+        background-color: blueviolet;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>h1</h1>
     <h2>h2</h2>
     <h3>h3</h3>
     <h4>h4</h4>
     <h5>h5</h5>
     <h6>h6</h6>
     <p>paragraph</p>
-    <img src="" alt="this is img">
-
-    
-    <!-- - ul>li * 4
-    - ctrl + shift + alt + arrw down in ul 
-    - shift + alt + arrw down
-    - img + space -->
-    <ul>
+    <img src="" alt="this is img"> -->
+    <!-- <ul>
         <li>banana</li>
         <li>banana</li>
         <li>apple</li>
@@ -44,9 +56,6 @@
         
     </table>
 
-    <!-- - anchor, when link
-    - button, when 
-    - target, when alt tab in link -->
     <form action="contacts.html">
         <label for="username">username: </label>
         <input type="text" placeholder="Enter your username">
@@ -62,9 +71,14 @@
     </section>
 
     <div class="thisisclass"></div>
-    <div id="thisisid"></div>
+    <div id="thisisid"></div> -->
 
-    
-
-</body>
+    <div class="container">
+      <div class="containers__wrapper">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
+    </div>
+  </body>
 </html>
